@@ -9,9 +9,9 @@ The most challenging part of the vulnerability assessment was identifying which 
 ## How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 We increased layers of security by implementing secure communications between the client and web server by adopting HTTPS protocol. 
 ## How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-After refactoring the application, I ran the application and visited the port in which the web application is running under to check that the application produces the expected output.
+After refactoring the application, I ran the application and visited the port on which the web application was running to check that the application produced the expected output.
 ## What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-The tool that I think will be helpful in future tasks is the OWASP dependency check plugin which helps to identify vulnerabilities that are introduced by the dependencies used in the project. The vulnerability report produced by the plug in lists the severity of vulnerabilities introduced by a dependency. This will be useful for decision making when deciding which dependencies should need to be addressed. 
+The tool that I think will be helpful in future tasks is the OWASP dependency-check plugin which helps to identify vulnerabilities that are introduced by the dependencies used in the project. The vulnerability report produced by the plugin lists the severity of vulnerabilities introduced by a dependency. This will be useful for decision making when deciding which dependencies should be addressed. 
 ## References
 Ghalleb, Z. (2024, November 26). What is Secure Coding? Overview and Best Practices. Wiz. https://www.wiz.io/academy/secure-coding-best-practices 
 
